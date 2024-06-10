@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sora';
+        box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+    
+}
+/**
+ * Defines the root CSS variables.
+ *
+ * @root
+ * @variable --magenta - The color magenta in hexadecimal format (#883AE1).
+ */
+:root{
+    --purple: #883AE1;
+    --lavender: #E6D6FC;
+    --mist:#E5EAF0;
+    --alabaster:#FAFAF9;
+    --white:#FFFFFF;
+    --ebonyclay:#20293A;
+    --palesky:#6C727F;
+}
+body{
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 164px;
+    
+
+}
+h1{
+    font-size: 12px;
+    background-color: var(--lavender);
+    color: var(--purple);
+    border-radius: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    max-width: fit-content;
+    padding: 6px 16px;
+    margin-top: 16px;
+}
+img{
+    border-radius: 16px;
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+h2{
+    font-size: 18px;
+    color: var(--ebonyclay);
+    margin-top: 16px;
+    margin-bottom: 6px;
+    margin-left: 16px;
+
+}
+p{
+   padding-left: 16px;
+   padding-bottom: 20px;
+
+    font-size: 14px;
+    color: var(--palesky);
+}
+span{
+    margin-left: 16px;
+    font-size: 10px;
+    color : var(--palesky);
+}
